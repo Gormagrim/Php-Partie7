@@ -1,0 +1,56 @@
+.form {
+   border: 1px solid grey;
+   background-color: lightgrey;
+}
+
+.regex {
+    color: red;
+    font-style: italic;
+}
+
+.navbar {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    color: red;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+}
+
+.navbar.solid {
+    background-color: #2f4f4f;
+    border-bottom: 0.2em solid #ffa000;
+}
+
+.navbar-light .navbar-left {
+    font-size: 1.8em;
+    font-weight: bold;
+    outline: 0;
+    color: #fff;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #ffa000;
+}
+
+.btn-outline-warning {
+    color: #fff;
+    border-color: #fff;
+    margin-right: 2em;
+    outline: 0;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffa000;
+    border-color: #fff;
+    color: #fff;
+}
+
+.orange {
+    color: #ffa000;
+    font-weight: bold;
+}
